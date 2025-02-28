@@ -121,6 +121,17 @@ body {
   width: 100%;
   height: auto;
 }
+
+.tags-bar .nav-link {
+  background-color: transparent;
+  color: black;
+}
+
+.tags-bar .nav-link.active-tag {
+  background-color: #beb45a !important; /* Forcer la couleur de fond dorée */
+  color: black !important; /* S'assurer d'un bon contraste */
+}
+
 .mg-prev,
 .mg-next {
   width: 30px;
