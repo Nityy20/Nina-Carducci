@@ -44,6 +44,7 @@ body {
   padding-block: 100px;
   position: relative;
 }
+
 .picture.left::before {
   content: " ";
   background-color: #e5975f;
